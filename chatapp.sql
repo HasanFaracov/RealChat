@@ -40,16 +40,7 @@ CREATE TABLE `messages` (
 
 INSERT INTO `messages` (`msg_id`, `incoming_msg_id`, `outgoing_msg_id`, `msg`) VALUES
 (2, 458758221, 486771965, 'Hello MAn'),
-(3, 458758221, 486771965, 'Hi'),
-(4, 458758221, 486771965, 'hey'),
-(5, 458758221, 486771965, 'hi Hasan'),
-(6, 486771965, 458758221, 'Hii'),
-(7, 486771965, 458758221, 'how are you doing?'),
-(8, 458758221, 486771965, 'good thanks'),
-(9, 458758221, 486771965, 'hey'),
-(10, 458758221, 486771965, 'ela'),
-(11, 458758221, 486771965, 'super'),
-(12, 458758221, 486771965, 'bomba');
+
 
 -- --------------------------------------------------------
 
@@ -73,8 +64,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `unique_id`, `fname`, `lname`, `email`, `password`, `img`, `status`) VALUES
-(1, 486771965, 'Coding', 'Nepal', 'abc@codingnepal.com', 'codingnepal', '1660839393295128.png', 'Offline now'),
-(2, 458758221, 'Hasan', 'Faracov', 'hesen@mail.ru', '12345', '1660843671cumberbatch-holmesjpg.jpeg', 'Active now');
+(1, 486771965, 'Yuif', 'Faracli', 'yusif@gmail.com', '67890', '1660839393295128.png', 'Offline now'),
+(2, 458758221, 'Hasan', 'Faracov', 'hesen@gmail.com', '12345', '1660843671cumberbatch-holmesjpg.jpeg', 'Active now');
 
 --
 -- Indexes for dumped tables
