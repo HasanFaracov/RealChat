@@ -17,8 +17,6 @@ while($row = mysqli_fetch_assoc($sql)){
         $you ="";
      }
 
-
-
      //check user is online or offline
      ($row['status']=='Offline now') ? $offline = "offline" : $offline ="";
 
