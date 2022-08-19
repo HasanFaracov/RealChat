@@ -3,6 +3,8 @@ session_start();
 include_once "config.php";
 $email = mysqli_real_escape_string($conn, $_POST['email']);
 $password = mysqli_real_escape_string($conn, $_POST['password']);
+$password = md5($password);
+
 
 if (!empty($email) && !empty($password)) {
  $sql = mysqli_query($conn, "SELECT * from users WHERE email = '{$email}' AND password = '{$password}'");
